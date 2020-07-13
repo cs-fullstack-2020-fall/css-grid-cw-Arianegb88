@@ -1,0 +1,51 @@
+body {
+    background-color: whitesmoke ;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+#header {
+    background-color: gray;
+    grid-row: 1/3;
+    grid-column: 1/5;
+    padding: 50px;
+    margin: 5px;
+    font-size: x-large;
+}
+#Item {
+    background-color: blue;
+    grid-row:3/4 ;
+    grid-column:1/5 ;
+    padding: 10px;
+    margin: 5px;
+
+}
+#Article {
+    background-color: grey;
+    grid-row:4/7;
+    grid-column:1/4 ;
+    padding: 90px;
+    margin: 5px;
+    font-size: large;
+
+
+}
+#Aside{
+    background-color: grey;
+    grid-row:4/7 ;
+    grid-column:4/5 ;
+    padding: 90px;
+    margin: 5px;
+    font-size: large;
+
+}
+#Footer {
+    background-color: grey;
+    grid-row:7/8 ;
+    grid-column:1/5 ;
+    padding: 30px;
+    font-size: large;
+
+}
